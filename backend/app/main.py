@@ -1,4 +1,4 @@
-"""HepatoGuard AI — FastAPI backend."""
+"""LiverPool AI — FastAPI backend."""
 import time
 from typing import Optional
 import numpy as np

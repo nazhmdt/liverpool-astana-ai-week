@@ -1,5 +1,5 @@
 """
-Synthetic patient cohort generator for HepatoGuard AI.
+Synthetic patient cohort generator for LiverPool AI.
 
 Scope: pilot launch, a single primary-care clinic in Astana. Individual
 patients are fabricated. The *population-level* shape is calibrated to

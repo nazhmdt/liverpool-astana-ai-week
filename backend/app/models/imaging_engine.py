@@ -1,5 +1,5 @@
 """
-HepatoGuard AI — Imaging Engine.
+LiverPool AI — Imaging Engine.
 
 A compact CNN classifies a liver-ultrasound frame into one of
 CONDITIONS = [normal, steatosis, benign_nodule, malignant_mass]. Localization

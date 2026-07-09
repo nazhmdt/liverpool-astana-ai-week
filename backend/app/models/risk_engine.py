@@ -1,5 +1,5 @@
 """
-HepatoGuard AI — Risk Engine.
+LiverPool AI — Risk Engine.
 
 Three layers, deliberately kept separable:
   1. Deterministic clinical scores (FIB-4, APRI) — pure functions, no ML,
