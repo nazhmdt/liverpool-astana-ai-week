@@ -1,0 +1,81 @@
+{
+  "n_total": 615,
+  "n_train": 492,
+  "n_test": 123,
+  "cv_f1_macro_mean": 0.6757,
+  "cv_f1_macro_std": 0.094,
+  "accuracy": 0.9512,
+  "balanced_accuracy": 0.6348,
+  "macro_f1": 0.6199,
+  "macro_precision": 0.6181,
+  "macro_recall": 0.6348,
+  "class_names": [
+    "0=Blood Donor",
+    "0s=suspect Blood Donor",
+    "1=Hepatitis",
+    "2=Fibrosis",
+    "3=Cirrhosis"
+  ],
+  "class_names_ru": [
+    "Здоровый донор",
+    "Подозрительный донор",
+    "Гепатит",
+    "Фиброз",
+    "Цирроз"
+  ],
+  "class_report": {
+    "0=Blood Donor": {
+      "precision": 0.9906542056074766,
+      "recall": 0.9906542056074766,
+      "f1-score": 0.9906542056074766,
+      "support": 107.0
+    },
+    "0s=suspect Blood Donor": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 1.0
+    },
+    "1=Hepatitis": {
+      "precision": 0.6,
+      "recall": 0.6,
+      "f1-score": 0.6,
+      "support": 5.0
+    },
+    "2=Fibrosis": {
+      "precision": 0.5,
+      "recall": 0.75,
+      "f1-score": 0.6,
+      "support": 4.0
+    },
+    "3=Cirrhosis": {
+      "precision": 1.0,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.9090909090909091,
+      "support": 6.0
+    },
+    "accuracy": 0.9512195121951219,
+    "macro avg": {
+      "precision": 0.6181308411214953,
+      "recall": 0.634797507788162,
+      "f1-score": 0.6199490229396771,
+      "support": 123.0
+    },
+    "weighted avg": {
+      "precision": 0.9512195121951219,
+      "recall": 0.9512195121951219,
+      "f1-score": 0.9500369549150037,
+      "support": 123.0
+    }
+  },
+  "class_distribution": {
+    "0=Blood Donor": 533,
+    "0s=suspect Blood Donor": 7,
+    "1=Hepatitis": 24,
+    "2=Fibrosis": 21,
+    "3=Cirrhosis": 30
+  },
+  "majority_class_share": 0.8667,
+  "source": "UCI HCV data / Kaggle Hepatitis C Prediction Dataset (fedesoriano), n=615",
+  "caveat": "Accuracy выглядит высокой (>90%) только потому, что 86.7% выборки — здоровые доноры; честная метрика здесь — Macro F1, не accuracy. Редкие классы (Hepatitis, Fibrosis, suspect Blood Donor) имеют менее 10 случаев в тесте — их метрики нестабильны: одно перевёрнутое предсказание может сдвинуть F1 на 0.2+."
+}

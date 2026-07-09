@@ -1,0 +1,132 @@
+{
+  "cv_accuracy_mean": 0.488,
+  "cv_accuracy_std": 0.0595,
+  "cv_f1_macro_mean": 0.3599,
+  "cv_f1_macro_std": 0.0657,
+  "cv_folds": 5,
+  "accuracy": 0.5663,
+  "f1_macro": 0.404,
+  "classification_report": {
+    "\u0421\u0442\u0430\u0434\u0438\u044f 1": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 4.0
+    },
+    "\u0421\u0442\u0430\u0434\u0438\u044f 2": {
+      "precision": 0.36363636363636365,
+      "recall": 0.21052631578947367,
+      "f1-score": 0.26666666666666666,
+      "support": 19.0
+    },
+    "\u0421\u0442\u0430\u0434\u0438\u044f 3": {
+      "precision": 0.4782608695652174,
+      "recall": 0.7096774193548387,
+      "f1-score": 0.5714285714285714,
+      "support": 31.0
+    },
+    "\u0421\u0442\u0430\u0434\u0438\u044f 4 (\u0446\u0438\u0440\u0440\u043e\u0437)": {
+      "precision": 0.84,
+      "recall": 0.7241379310344828,
+      "f1-score": 0.7777777777777778,
+      "support": 29.0
+    },
+    "accuracy": 0.5662650602409639,
+    "macro avg": {
+      "precision": 0.4204743083003952,
+      "recall": 0.41108541654469877,
+      "f1-score": 0.403968253968254,
+      "support": 83.0
+    },
+    "weighted avg": {
+      "precision": 0.5553635887423211,
+      "recall": 0.5662650602409639,
+      "f1-score": 0.5462229871868426,
+      "support": 83.0
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "Hepatomegaly",
+      "importance": 0.125
+    },
+    {
+      "feature": "Ascites",
+      "importance": 0.1080000028014183
+    },
+    {
+      "feature": "Tryglicerides",
+      "importance": 0.07240000367164612
+    },
+    {
+      "feature": "Prothrombin",
+      "importance": 0.0723000019788742
+    },
+    {
+      "feature": "Alk_Phos",
+      "importance": 0.0706000030040741
+    },
+    {
+      "feature": "age_years",
+      "importance": 0.06459999829530716
+    },
+    {
+      "feature": "Platelets",
+      "importance": 0.06340000033378601
+    },
+    {
+      "feature": "Albumin",
+      "importance": 0.061799999326467514
+    },
+    {
+      "feature": "Cholesterol",
+      "importance": 0.06159999966621399
+    },
+    {
+      "feature": "sex_F",
+      "importance": 0.0608999989926815
+    },
+    {
+      "feature": "Bilirubin",
+      "importance": 0.05900000035762787
+    },
+    {
+      "feature": "SGOT",
+      "importance": 0.05860000103712082
+    },
+    {
+      "feature": "Copper",
+      "importance": 0.05559999868273735
+    },
+    {
+      "feature": "edema_score",
+      "importance": 0.039400000125169754
+    },
+    {
+      "feature": "Spiders",
+      "importance": 0.026900000870227814
+    }
+  ],
+  "n_train": 329,
+  "n_test": 83,
+  "n_total": 412,
+  "features": [
+    "age_years",
+    "sex_F",
+    "Bilirubin",
+    "Cholesterol",
+    "Albumin",
+    "Copper",
+    "Alk_Phos",
+    "SGOT",
+    "Tryglicerides",
+    "Platelets",
+    "Prothrombin",
+    "Ascites",
+    "Hepatomegaly",
+    "Spiders",
+    "edema_score"
+  ],
+  "source": "Mayo Clinic PBC trial (public/UCI), Stage 1-4, n=418",
+  "caveat": "\u041f\u0435\u0440\u0432\u0438\u0447\u043d\u044b\u0439 \u0431\u0438\u043b\u0438\u0430\u0440\u043d\u044b\u0439 \u0446\u0438\u0440\u0440\u043e\u0437 (\u041f\u0411\u0426), \u043d\u0435 \u0432\u0438\u0440\u0443\u0441\u043d\u044b\u0439 \u0433\u0435\u043f\u0430\u0442\u0438\u0442/MASLD. \u041d\u0435\u0442 \u0410\u041b\u0422 \u0438 \u0432\u0438\u0440\u0443\u0441\u043d\u044b\u0445 \u043c\u0430\u0440\u043a\u0435\u0440\u043e\u0432 -- FIB-4 \u0438 HBsAg/anti-HCV \u0441\u043a\u0440\u0438\u043d\u0438\u043d\u0433 \u043d\u0430 \u044d\u0442\u0438\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u043d\u0435 \u043f\u0440\u043e\u0432\u0435\u0440\u044f\u044e\u0442\u0441\u044f, \u0442\u043e\u043b\u044c\u043a\u043e APRI \u0438 \u0441\u0442\u0430\u0434\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u043f\u043e \u0431\u0438\u043e\u043f\u0441\u0438\u0438."
+}

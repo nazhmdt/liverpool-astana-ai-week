@@ -1,0 +1,20 @@
+# Python
+backend/.venv/
+**/__pycache__/
+*.pyc
+backend/app/data/cohort.pkl
+
+# Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+*.tsbuildinfo
+frontend/next-env.d.ts
+
+# OS / IDE
+.DS_Store
+.idea/
+
+# env
+.env
+.env.local

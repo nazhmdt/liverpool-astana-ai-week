@@ -1,0 +1,77 @@
+{
+  "accuracy": 1.0,
+  "f1_macro": 1.0,
+  "confusion_matrix": [
+    [
+      70,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      70,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      70,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      70
+    ]
+  ],
+  "classes": [
+    "normal",
+    "steatosis",
+    "benign_nodule",
+    "malignant_mass"
+  ],
+  "classification_report": {
+    "normal": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 70.0
+    },
+    "steatosis": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 70.0
+    },
+    "benign_nodule": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 70.0
+    },
+    "malignant_mass": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 70.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 280.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 280.0
+    }
+  },
+  "n_train": 1120,
+  "n_test": 280
+}
